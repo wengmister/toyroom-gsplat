@@ -1,0 +1,7 @@
+.venv/
+.sfm-venv/
+__pycache__/
+data/
+logs/
+results/
+vendor/
