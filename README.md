@@ -1,14 +1,5 @@
 # Toyroom reconstruction
 
-Three portrait iPhone videos are sampled at 3 fps into 295 SDR JPEGs at
-1080 × 1920. The original videos remain on the Mac at
-`/Users/zhengyang/Downloads/toyroom{1,2,3}.MOV`. Their metadata and SHA-256
-checksums are recorded in `input-manifest.json`.
-
-The project runs in WSL2 on Alienbot with an RTX 5080. Python environments
-are local to this folder. The Windows NVIDIA driver supplies GPU access;
-CUDA 12.8 compiler packages are installed inside WSL.
-
 ## Frames and cameras
 
 For each clip, extract frames into its own folder beneath `data/images`:
